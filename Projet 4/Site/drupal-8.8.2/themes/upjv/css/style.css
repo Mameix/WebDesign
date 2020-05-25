@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+.navbar-brand img {
+	height:2rem;
+}
+
+.navbar-brand:hover, .navbar-brand:visited, .navbar-brand {
+	color: #fff;
+	font-size: 1em;
+	vertical-align: bottom;
+}
+
+#block-upjv-main-menu {
+	margin-left: auto;
+}
+
+.navbar-nav a {
+	color: #bbb;
+}
+
+.navbar-nav a:hover, .navbar-nav a.is-active {
+	color:#fff;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#block-poweredbymiage {
+	margin: 0 auto;
+}
