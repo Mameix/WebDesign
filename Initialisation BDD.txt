@@ -1,6 +1,6 @@
 Ajout utilisateur dans phpmyadmin : groupe3WebDesign
 Mot de passe : WebDesign20192020MIAGE
 
-Ajout d'une table dans phpmyadmin : master-miage
+Import du fichier présent dans "Bdd" sur le Git
 
 Ajouter tous les droits de groupe3WebDesign sur la table master-miage
