@@ -2,10 +2,10 @@ Créer un virtual Host :
 	- Copier le dossier WebDesign dans www de Wamp
 	- Démarrer Wamp
  	- Aller sur localhost/
-	- Cliquer sur ajouter un Virtual Host :
+	- Cliquer sur ajouter un Virtual Host (en bas à gauche) :
 		Nom host : master-miage
 		Chemin absolu : C:\wamp64\www\WebDesign\Site
 
 Accès au site : 
-	- Aller sur https://master-miage
-	- Voir identifiants connexion dans le fichier correspondant
+	- Aller sur http://master-miage ou cliquer sur master-miage en bas à droite de la page localhost/
+	- Voir identifiants connexion dans le fichier correspondant (Comptes site.txt)

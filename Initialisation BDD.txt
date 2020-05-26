@@ -1,6 +1,20 @@
-Ajout utilisateur dans phpmyadmin : groupe3WebDesign
-Mot de passe : WebDesign20192020MIAGE
+Se connecter en root
 
-Import du fichier présent dans "Bdd" sur le Git
+Créer un utilisateur (onglet comptes utilisateur): 
+	Nom utilisateur : groupe3WebDesign
+	Nom hôte : Local (liste déroulante)
+	Mot de passe : WebDesign20192020MIAGE
 
-Ajouter tous les droits de groupe3WebDesign sur la table master-miage
+Créer base de données nommée "master-miage"
+Import du fichier présent dans "Bdd" sur le Git (onglet import) cliquer sur exécuter
+
+Ajouter tous les droits de groupe3WebDesign sur la table master-miage : 
+	Revenir sur la page d'accueil (icône maison en haut à gauche)
+	Cliquer sur "comptes utilisateur"
+	Cliquer sur "éditer privilèges" du compte groupe3WebDesign
+	Cliquer sur "base de données" (en haut à gauche à côté de "global")
+	Sélectionner la base "master-miage" dans la liste déroulante
+	Cliquer sur "exécuter"
+	Cliquer sur "tout cocher" puis exécuter.
+
+Voilà c'est good

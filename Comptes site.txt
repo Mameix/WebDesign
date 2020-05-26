@@ -1,5 +1,5 @@
 Compte admin :
-	Identifiant : AdminMIAGE
+	Identifiant : groupe3WebDesign
 	Mot de passe : WebDesign20192020MIAGE
  
 eMail du site :
