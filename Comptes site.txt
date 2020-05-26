@@ -1,0 +1,7 @@
+Compte admin :
+	Identifiant : AdminMIAGE
+	Mot de passe : WebDesign20192020MIAGE
+ 
+eMail du site :
+	Nom : mastermiage.webdesign@gmail.com
+	Mot de passe : WebDesign20192020MIAGE
