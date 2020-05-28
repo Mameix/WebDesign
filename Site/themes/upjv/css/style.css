@@ -3,6 +3,11 @@
  * Subtheme specific CSS.
  */
 
+#navbar-main, #navbar-main>.navbar-brand {
+	background-color: rgba(0,45,89)!important;
+	padding-bottom: 0;
+}
+
 .navbar-brand img {
 	height:2rem;
 }
@@ -13,8 +18,16 @@
 	vertical-align: bottom;
 }
 
+.region-first-footer, .region-footer {
+	background-color: rgba(0,45,89)!important;
+}
+
 #block-upjv-main-menu {
 	margin-left: auto;
+}
+#block-upjv-footer {
+	margin: 0 0 0 auto;
+	padding-right: 2%;
 }
 
 .navbar-nav a {
@@ -38,6 +51,46 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+
+#block-upjv-account-menu {
+	margin: 0 0 0 auto!important;
+}
+
+#block-upjv-main-menu {
+	color: black!important;
+}
+
+.dropdown-menu {
+background-color: rgba(0, 45, 89, 0.85);
+}
+
+.nav-item a {
+color:white!important;
+}
+.onglet>a {
+color: rgba(0,45,89)!important;
+}
+.onglet>a:hover {
+color: #17a2b8!important;
+}
+
+.dropdown-item a:hover {
+background-color:#17a2b8!important;
+}
+
+.dropdown-item:hover {
+background-color:transparent!important;
+}
+
+.float-right {
+	margin: 0 0 0 auto;
+}
+
+.clearfix>a {
+	color:white!important;
+}
+
 
 #block-copyright {
 	margin: 0 auto;

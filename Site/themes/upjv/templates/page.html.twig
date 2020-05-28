@@ -167,7 +167,14 @@
         </aside>
       </div>
     {% endif %}
-    <footer class="py-3 bg-dark">
+    <first_footer class="py-3">
+      {% block first_footer %}
+          {% if page.first_footer %}
+              {{ page.first_footer }}
+          {% endif %}
+      {% endblock %}
+    </first_footer>
+    <footer>
       {% block footer %}
           {% if page.footer %}
               {{ page.footer }}
