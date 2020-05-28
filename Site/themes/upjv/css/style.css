@@ -8,6 +8,15 @@
 	padding-bottom: 0;
 }
 
+#block-upjv-footer>ul {
+	display: ruby;
+}
+
+#block-upjv-footer>ul>li {
+	padding-left:15px;
+}
+
+
 .navbar-brand img {
 	height:2rem;
 }
@@ -20,6 +29,8 @@
 
 .region-first-footer, .region-footer {
 	background-color: rgba(0,45,89)!important;
+	margin:0!important;
+	padding: 0 1.5rem;
 }
 
 #block-upjv-main-menu {
@@ -27,7 +38,6 @@
 }
 #block-upjv-footer {
 	margin: 0 0 0 auto;
-	padding-right: 2%;
 }
 
 .navbar-nav a {
@@ -94,4 +104,9 @@ background-color:transparent!important;
 
 #block-copyright {
 	margin: 0 auto;
+}
+
+#block-adressemaster {
+    color: white;
+    padding: 0.8rem 0;
 }
