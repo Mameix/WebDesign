@@ -110,3 +110,41 @@ background-color:transparent!important;
     color: white;
     padding: 0.8rem 0;
 }
+
+.container {
+	max-width:100%;
+	margin:0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.moduleCandidat {
+	background-color: rgba(20,141,200);
+	margin: auto 0;
+	text-align: center;
+}
+
+.btn {
+	font-size: 2.5vw;
+}
+
+.bandeauAccueil {
+	background-color: rgba(0,45,89);
+}
+
+
+@media (min-width: 769px) { 
+	.moduleCandidat, .btnActualites {
+		margin-top: 20vh!important;
+	}
+}
+
+
+@media (max-width: 576px) { 
+	.cacherSM {
+		display:none;
+	}
+}
