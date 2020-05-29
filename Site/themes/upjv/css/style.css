@@ -127,8 +127,13 @@ background-color:transparent!important;
 	text-align: center;
 }
 
-.btn {
+.texteModule, .nomUniv {
 	font-size: 2.5vw;
+}
+
+.nomUniv {
+	bottom: 0; 
+	position:absolute;
 }
 
 .bandeauAccueil {
@@ -147,4 +152,12 @@ background-color:transparent!important;
 	.cacherSM {
 		display:none;
 	}
+}
+
+.module {
+	background-color: rgba(20,141,200);
+}
+
+.savoirPlus {
+	background-color: rgba(0,45,89);
 }
