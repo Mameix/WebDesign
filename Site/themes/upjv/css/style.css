@@ -119,7 +119,7 @@
 	margin-top:-0.1rem;
 }
 
-#block-menutablette-2, #block-menuonglets-2 {
+#block-menutablette-2, #block-menuonglets-2, #block-menuongletsavececandidat {
 	padding:0;
 	margin:0;
 	border:none;
@@ -340,6 +340,11 @@ background-color:transparent!important;
 	.nomUniv, .nav-link--fr-user, .nav-link--fr-user-logout  {
 		font-size:1.5vmax;
 	}
+}
+
+
+.eCandidat{
+    background-color: white;
 }
 
 #contact-message-feedback-form{
