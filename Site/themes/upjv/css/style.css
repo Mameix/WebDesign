@@ -119,7 +119,7 @@
 	margin-top:-0.1rem;
 }
 
-#block-menutablette-2, #block-menuonglets-2, #block-menuongletsavececandidat {
+#block-menutablette-2, #block-menutablettesansecandidat, #block-menuonglets-2, #block-menuongletsavececandidat {
 	padding:0;
 	margin:0;
 	border:none;
@@ -236,7 +236,7 @@ background-color:transparent!important;
 		display:none;
 	}
 
-	.menuTablette,  #sidebar_first {
+	.menuTablette, .tablette,  #sidebar_first {
         display: none;
     }
 }
@@ -245,6 +245,10 @@ background-color:transparent!important;
 	.imageModule {
 		min-width:100%!important;
 		height: 40vh!important;
+	}
+
+	.Ordi {
+		display:none;
 	}
 
 	.titreOffre, .titreMenu {
