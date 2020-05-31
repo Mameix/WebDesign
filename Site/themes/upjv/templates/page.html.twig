@@ -58,6 +58,7 @@
  * - navbar_top_attributes: Items for the header region.
  * - navbar_attributes: Items for the header region.
  * - content_attributes: Items for the header region.
+ * - sidebar_left_attributes: Items for the highlighted region.
  * - sidebar_first_attributes: Items for the highlighted region.
  * - sidebar_second_attributes: Items for the primary menu region.
  * - sidebar_collapse: If the sidebar_first will collapse.
@@ -130,10 +131,29 @@
       {% endblock %}
     {% endif %}
     <div id="main-wrapper" class="layout-main-wrapper clearfix">
+      {% block hautContent %}
+        <div id="main" class="{{ container }}">
+          <div class="row row-offcanvas row-offcanvas-left clearfix">
+              <main{{ content_attributes }}>
+                <section class="section">
+                  <a id="main-content" tabindex="-1"></a>
+                  {{ page.hautContent }}
+                </section>
+              </main>
+          </div>
+        </div>
+      {% endblock %}
       {% block content %}
         <div id="main" class="{{ container }}">
           {{ page.breadcrumb }}
           <div class="row row-offcanvas row-offcanvas-left clearfix">
+              {% if page.sidebar_second %}
+              <div{{ sidebar_second_attributes }}>
+                <aside class="section" role="complementary">
+                  {{ page.sidebar_second }}
+                </aside>
+              </div>
+            {% endif %}
               <main{{ content_attributes }}>
                 <section class="section">
                   <a id="main-content" tabindex="-1"></a>
@@ -144,13 +164,6 @@
               <div{{ sidebar_first_attributes }}>
                 <aside class="section" role="complementary">
                   {{ page.sidebar_first }}
-                </aside>
-              </div>
-            {% endif %}
-            {% if page.sidebar_second %}
-              <div{{ sidebar_second_attributes }}>
-                <aside class="section" role="complementary">
-                  {{ page.sidebar_second }}
                 </aside>
               </div>
             {% endif %}
@@ -167,6 +180,13 @@
         </aside>
       </div>
     {% endif %}
+    <logo class="pt-3">
+      {% block logo %}
+          {% if page.logo %}
+              {{ page.logo }}
+          {% endif %}
+      {% endblock %}
+    </logo>
     <first_footer class="py-3">
       {% block first_footer %}
           {% if page.first_footer %}

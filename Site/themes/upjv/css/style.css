@@ -2,12 +2,6 @@
  * @file
  * Subtheme specific CSS.
  */
-
-#navbar-main, #navbar-main>.navbar-brand {
-	background-color: rgba(0,45,89)!important;
-	padding-bottom: 0;
-}
-
 #block-upjv-footer>ul {
 	display: ruby;
 }
@@ -16,21 +10,8 @@
 	padding-left:15px;
 }
 
-
 .navbar-brand img {
 	height:2rem;
-}
-
-.navbar-brand:hover, .navbar-brand:visited, .navbar-brand {
-	color: #fff;
-	font-size: 1em;
-	vertical-align: bottom;
-}
-
-.region-first-footer, .region-footer {
-	background-color: rgba(0,45,89)!important;
-	margin:0!important;
-	padding: 0 1.5rem;
 }
 
 #block-upjv-main-menu {
@@ -38,18 +19,6 @@
 }
 #block-upjv-footer {
 	margin: 0 0 0 auto;
-}
-
-.navbar-nav a {
-	color: #bbb;
-}
-
-.navbar-nav a:hover, .navbar-nav a.is-active {
-	color:#fff;
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 255, 0.5);
 }
 
 .carousel-item {
@@ -62,27 +31,120 @@
   background-size: cover;
 }
 
-
 #block-upjv-account-menu {
 	margin: 0 0 0 auto!important;
 }
 
-#block-upjv-main-menu {
-	color: black!important;
+.float-right {
+	margin: 0 0 0 auto;
+}
+
+#block-copyright {
+	margin: 0 auto;
+}
+
+
+.container {
+	max-width:100%;
+	margin:0;
+	padding:0;
+}
+
+#block-logoupjvavecbandeauagauche, #block-logoupjvsansbandeauagauche {
+	width: 100%!important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.carousel-inner {
+	height:100%;
+}
+
+.user-login-form, .user-register-form, .user-pass {
+	width: 75% !important;
+	margin: 0 auto;
+}
+
+.nomUniv {
+	bottom: 0; 
+	position:absolute;
+}
+
+.moduleCandidat {
+	margin: auto 0;
+	text-align: center;
+}
+
+
+#navbar-main, #navbar-main>.navbar-brand {
+	padding-bottom: 0;
+}
+
+.navbar-brand:hover, .navbar-brand:visited, .navbar-brand {
+	font-size: 1em;
+	vertical-align: bottom;
+}
+
+.region-first-footer, .region-footer {
+	margin:0!important;
+	padding: 0 1.5rem;
+}
+
+#block-adressemaster {
+    padding: 0.6rem 0;
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: block !important;
+}
+
+.contextual-region.profile {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*Gestion des fonds*/
+.module, .moduleCandidat  {
+	background-color: rgba(20,141,200);
+}
+
+.savoirPlus, #sidebar_first, #sidebar-second, .menuGauche, .InfoOffre, .bandeauAccueil, .region-first-footer, .region-footer, #navbar-main, #navbar-main>.navbar-brand {
+	background-color: rgba(0,45,89)!important
+}
+
+#sidebar_first {
+	margin-top:-0.1rem;
+}
+
+#block-menutablette-2, #block-menuonglets-2 {
+	padding:0;
+	margin:0;
+	border:none;
+}
+
+.sidebar_second.sidebar.col-md-3.order-last  {
+	order:0!important;
+	padding-right:0;
+	background-color: rgba(0,45,89);
+}
+
+.sousMenu a:hover {
+	text-decoration: none;
+}
+
+.btn-primary:hover {
+	background-color: #0000ff;
+}
+
+.dropdown-menu .dropdown-item a:hover {
+	background-color: transparent!important; 
 }
 
 .dropdown-menu {
-background-color: rgba(0, 45, 89, 0.85);
-}
-
-.nav-item a {
-color:white!important;
-}
-.onglet>a {
-color: rgba(0,45,89)!important;
-}
-.onglet>a:hover {
-color: #17a2b8!important;
+background-color: rgba(0, 45, 89, 0.85)!important;
 }
 
 .dropdown-item a:hover {
@@ -93,71 +155,189 @@ background-color:#17a2b8!important;
 background-color:transparent!important;
 }
 
-.float-right {
-	margin: 0 0 0 auto;
+.carousel-caption {
+    background-color: rgba(0, 0, 255, 0.5)!important;
 }
 
-.clearfix>a {
+.corpOffre{
+    background-color: white;
+}
+
+/*Gestion des couleurs de police*/
+.clearfix>a, #block-upjv-footer-menu, #block-adressemaster, .navbar-nav a:hover, .navbar-nav a.is-active, .navbar-brand:hover, .navbar-brand:visited, .navbar-brand  {
 	color:white!important;
 }
 
-
-#block-copyright {
-	margin: 0 auto;
+#block-upjv-main-menu {
+	color: black!important;
 }
 
-#block-adressemaster {
-    color: white;
-    padding: 0.8rem 0;
+.onglet>a, .titreSite {
+	color: rgba(0,45,89)!important;
 }
 
-.container {
-	max-width:100%;
-	margin:0;
+.titreMot, .textMot {
+	color: rgba(0,45,89);
 }
 
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-
-.moduleCandidat {
-	background-color: rgba(20,141,200);
-	margin: auto 0;
-	text-align: center;
+.onglet>a:hover {
+	color: #17a2b8!important;
 }
 
-.texteModule, .nomUniv {
-	font-size: 2.5vw;
+.navbar-nav a {
+	color: #bbb;
+}
+
+/*Gestion des tailles*/
+.modulesAccueil, .region-first-footer, .region-footer, .block-upjv-footer-menu {
+	font-size: 1.5vmax;
+}
+
+.texteModule, .titreSite, .menu, .titrePage, .titreMenu, .titreMot, .sousMenu, .nav-link--fr-user-logout, .nav-link--fr-user, .nav-link--fr-user-login, .nav-link--fr-user-register, .nav-link--fr-user-password {
+	font-size: 2.5vmax;
+}
+
+.titreModule {
+	font-size: 2.3vmax;
+}
+
+.texteContenu {
+	font-size: 1.5vmax;
+}
+
+.titreOffre {
+	font-size: 1.3vmax;
+}
+
+.corpOffre {
+	font-size: 1vmax;
+}
+
+.textMot, .titreOnglet {
+	font-size: 1.5vmax;
+}
+
+.nav-tabs, .titreSousMenu {
+	font-size: 2vmax;
 }
 
 .nomUniv {
-	bottom: 0; 
-	position:absolute;
+	font-size: 2.5vw;
 }
 
-.bandeauAccueil {
-	background-color: rgba(0,45,89);
+.carousel, .carousel img, .slide {
+	height: 30vmax;
 }
 
 
-@media (min-width: 769px) { 
+/*Gestion responsive*/
+@media (min-width: 992px) { 
+	.cacherMD {
+		display:none;
+	}
+
+	.menuTablette,  #sidebar_first {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) { 
+	.imageModule {
+		min-width:100%!important;
+		height: 40vh!important;
+	}
+
+	.titreOffre, .titreMenu {
+		font-size: 2vmax;
+	}
+
+	.corpOffre, .titreSousMenu {
+		font-size: 1.5vmax;
+	}
+
+	.cacherTablette, #sidebar_second {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	 #block-testmenu {
+	 	display:none;
+	 }
+}
+
+@media (min-width: 768px) { 
 	.moduleCandidat, .btnActualites {
-		margin-top: 20vh!important;
+		margin-top: 5vmax!important;
+	}
+
+	
+	#block-upjv-footer-menu {
+		display:none;
+	}
+
+	.menuPerso {
+		background-color: transparent!important;
 	}
 }
 
+@media (max-width: 767px) { 
 
-@media (max-width: 576px) { 
+	.menuPerso {
+		background-color: rgba(0,45,89, 0.85)!important;
+	}
+
+	.menu {
+		margin: 0!important;
+	}
+
+	.sousMenu, .onglet>a {
+		color:white!important;
+	}
+
+	.cacherMD {
+		display:none;
+	}
+
+	.menuTablette, #sidebar_first{
+        display: none;
+    }
+
+	.TitreOffre{
+        text-align: center;
+    }
+
+	#block-upjv-footer .navbar-nav {
+		display: block;
+		float: right;
+	}
+
+    .menuGauche{
+        display: none;
+    }
+    .imgOffre{
+        display: none;
+    }
+
 	.cacherSM {
 		display:none;
 	}
-}
 
-.module {
-	background-color: rgba(20,141,200);
-}
+	.modulesAccueil {
+		margin: 0 auto;
+		text-align: center;
+	}
 
-.savoirPlus {
-	background-color: rgba(0,45,89);
+	.moduleA {
+		padding:0!important;
+	}
+
+	.sousMenu {
+		font-size: 2vmax;
+		background-color:transparent!important;
+	}
+
+	.nomUniv, .nav-link--fr-user, .nav-link--fr-user-logout  {
+		font-size:1.5vmax;
+	}
 }
