@@ -217,7 +217,7 @@ background-color:transparent!important;
 	font-size: 1.5vmax;
 }
 
-.nav-tabs, .titreSousMenu {
+.nav-tabs, .titreSousMenu, .titreCandidat {
 	font-size: 2vmax;
 }
 
@@ -340,4 +340,9 @@ background-color:transparent!important;
 	.nomUniv, .nav-link--fr-user, .nav-link--fr-user-logout  {
 		font-size:1.5vmax;
 	}
+}
+
+#contact-message-feedback-form{
+	width: 80%!important;
+	margin: 0 auto;
 }

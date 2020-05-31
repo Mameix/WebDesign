@@ -1,7 +1,20 @@
-Compte admin :
+Compte admin 1 :
 	Identifiant : groupe3WebDesign
 	Mot de passe : WebDesign20192020MIAGE
+
+Compte admin 2 :
+	Identifiant : Administration
+	Mot de passe : WebDesign20192020MIAGE
+
+Compte utilisateur :
+	Identifiant : Etudiant
+	Mot de passe : azerty
+
+Compte entreprise:
+	Identifiant : Entreprise
+	Mot de passe : azerty
  
 eMail du site :
 	Nom : mastermiage.webdesign@gmail.com
 	Mot de passe : WebDesign20192020MIAGE
+
